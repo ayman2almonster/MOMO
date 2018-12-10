@@ -16,15 +16,15 @@ client.on('message', message => {
   } else  
   if (message.content.startsWith(adminprefix + 'setw')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`LastCodes   ${argresult}**`)
+      message.channel.send(`Ayman   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'setl')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`LastCodes   ${argresult}**`)
+      message.channel.send(`Ayman   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'sets')) {
     client.user.setGame(argresult, "https://www.twitch.tv/One");
-      message.channel.send(`LastCodes`)
+      message.channel.send(`Ayman`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
@@ -40,4 +40,4 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
  
  
  
-client.login(process.env.BOT_TOKEN);// ·«  €Ì— ›ÌÂ« ‘Ì¡
+client.login(process.env.BOT_TOKEN);// √°√á √ä√õ√≠√ë √ù√≠√•√á √î√≠√Å
